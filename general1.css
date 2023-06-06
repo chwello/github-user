@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(65, 18, 119);
+  font-family: Geologica, Arial;
+  color: white;
+}
+
+.search-bar {
+  width: 500px;
+  height: 35px;
+  align-items: center;
+  border-radius: 7px;
+  border: none;
+  margin-right: 130px;
+  margin-left: -20px;
+  background-color: rgb(92, 42, 147);
+  position: absolute;
+  margin-top: 70px;
+}
+
+.search-bar::placeholder {
+  padding-left: 10px;
+  color: white;
+  font-size: 11px;
+  font-family: Geologica, Arial;
+}
+
+.border {
+  margin: 150px;
+  padding-left: 400px;
+}
+
+.container-one {
+  width: 650px;
+  height: 250px;
+  background-color: rgb(92, 42, 147);
+  margin-left: 450px;
+  border-radius: 20px;
+  position: fixed;
+  margin-top: 130px;
+}
+
+.profile-picture {
+  display: inline-block;
+  width: 100px;
+}
+
+.user-picture {
+  border-radius: 50%;
+  border: 10px solid rgba(28, 19, 108, 0.415);
+  width: 100%;
+  margin: 30px;
+}
+
+.user-info {
+  width: 400px;
+  margin-left: 170px;
+  margin-top: -160px;
+  font-family: Geologica, Arial;
+}
+
+.name {
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.social-stats {
+  display: flex;
+  height: 5px;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.repos {
+  margin-right: 90px;
+}
+
+.short-description {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.user-project {
+  display: flex;
+  height: 5px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2px;
+  font-size: 9px;
+}
