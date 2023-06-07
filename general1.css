@@ -15,6 +15,7 @@ body {
   background-color: rgb(92, 42, 147);
   position: absolute;
   margin-top: 70px;
+  color: white;
 }
 
 .search-bar::placeholder {
@@ -31,12 +32,13 @@ body {
 
 .container-one {
   width: 650px;
-  height: 250px;
+  height: auto;
   background-color: rgb(92, 42, 147);
   margin-left: 450px;
   border-radius: 20px;
   position: fixed;
   margin-top: 130px;
+  padding-bottom: 20px;
 }
 
 .profile-picture {
@@ -86,9 +88,10 @@ body {
 
 .user-project {
   display: flex;
-  height: 5px;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow-x: auto;
   margin-top: 2px;
   font-size: 9px;
+  white-space: nowrap; 
 }
+
